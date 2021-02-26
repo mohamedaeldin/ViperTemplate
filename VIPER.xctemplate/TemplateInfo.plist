@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>DefaultCompletionName</key>
+	<string>File</string>
+	<key>Description</key>
+	<string>A VIPER Module</string>
+	<key>Kind</key>
+	<string>Xcode.IDEKit.TextSubstitutionFileTemplateKind</string>
+	<key>Options</key>
+	<array>
+		<dict>
+			<key>Description</key>
+			<string>The name of the module to create</string>
+			<key>Identifier</key>
+			<string>productName</string>
+			<key>Name</key>
+			<string>Module Name:</string>
+			<key>NotPersisted</key>
+			<true/>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>text</string>
+		</dict>
+		<dict>
+			<key>Identifier</key>
+			<string>swiftVersionChoice</string>
+			<key>Required</key>
+			<true/>
+			<key>Name</key>
+			<string>UI type:</string>
+			<key>Description</key>
+			<string>ContentView orXIB or Storyboard</string>
+			<key>Type</key>
+			<string>popup</string>
+			<key>Default</key>
+			<string>ContentView</string>
+			<key>Values</key>
+			<array>
+				<string>XIB</string>
+				<string>ContentView</string>
+				<string>Storyboard</string>
+			</array>
+		</dict>
+	</array>
+	<key>Platforms</key>
+	<array>
+		<string>com.apple.platform.iphoneos</string>
+	</array>
+	<key>SortOrder</key>
+	<string>8</string>
+	<key>Summary</key>
+	<string>A VIPER Module</string>
+</dict>
+</plist>
