@@ -1,6 +1,9 @@
 # ViperTemplate
 Template to generate VIPER classes on Xcode.
 
+## Swift Version
+Swift 5.0
+
 ## About VIPER
 VIPER is a backronym for View, Interactor, Presenter, Entity and Router. It’s basically an approach that implements the [Single Responsibility Principle](https://en.wikipedia.org/wiki/Single_responsibility_principle) to create a cleaner and more modular structure for your iOS project.
 
